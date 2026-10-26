@@ -1,4 +1,7 @@
 /* Customize this design to match your story. Keep the responsive Bootstrap layout. */
-body { background: #f4f6fa; }
+body { background: hsl(219, 58%, 73%); }
 .story-output { min-height: 8rem; line-height: 1.7; white-space: normal; }
 .card { border-radius: 1rem; }
+.card z{background-color: aquamarine;}
+.text {font-family: 'Times New Roman', Times, serif;}
+.container {background-color: aliceblue;}

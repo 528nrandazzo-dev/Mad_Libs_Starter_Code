@@ -57,12 +57,12 @@ let Number1 = Number(prompt("Enter a Number:"));
 let Number2 = Number(prompt("Enter another number:")); 
 // ${Number2}
 let Verb = prompt ("Enter a Verb (Dont add 'ing' to the end)")
-// ${verb}
+// ${Verb}
 let Dumb = prompt ("Enter a insult")
 // ${Dumb}
 
 
-\
+
 
 const isRidiculous = true;
 
@@ -87,8 +87,11 @@ let message= "Meet " + Name + " and the " + Animal + " at " + Place + "!";
 console.log( "My message:", message);
 
 
-let story =  'At ${place} ${Name} and ${Namee} were arguing on who should get the pencil on the ground ${Name} said "I need it for math" ${Namee} called him a ${Dumb} and asked what 1+1 is ${Name} confidently said ${sum} and then a ${Adj} person walks in holding another pencil challenged them to a ${Verb} contest and they both agreed. After losing the ${Adj} man gave them one final chace and asked whats half of 3 and then ${Namee} said ${Multiply} in shock the Person grabbed both pencils and gave them both the pencils they both needed them more then he does;
+let story =  `At ${Place} ${Name} and ${Namee} were arguing on who should get the pencil on the ground ${Name} said "I need it for math" ${Namee} called him a ${Dumb} and asked what 1+1 is ${Name} confidently said ${sum} and then a ${Adj} person walks in holding another pencil challenged them to a ${Verb} contest and they both agreed. After losing the ${Adj} man gave them one final chace and asked whats half of 3 and then ${Namee} said ${Multiply} in shock the Person grabbed both pencils and gave them both the pencils they both needed them more then he does`
 
-let story2 = 'After fixing a time machine ${Name} was teleported to ${Place} after wandering around a while he met ${Namee} and asked him what year was it and he said the year ${Power} In shock he sat down for ${age} hours then a ${Verb} man came and walked up to ${Name} and then with a ${Adj} Turn of a hand he woke up not in the year ${Power};
 
-let story3 = 'the Wedding of ${Name} and ${Namee} was happening at ${Place}. They been dating for ${sum} months and they believe its time to have a ${Adj} theme wedding and a ${Noun} guest list. ;
+let story2 = `After fixing a time machine ${Name} was teleported to ${Place} after wandering around a while he met ${Namee} and asked him what year was it and he said the year ${Power} In shock he sat down for ${Age} hours then a ${Verb} man came and walked up to ${Name} and then with a ${Adj} Turn of a hand he woke up not in the year ${Power}`
+
+let story3 = `the Wedding of ${Name} and ${Namee} was happening at ${Place}. They been dating for ${sum} months and they believe its time to have a ${Adj} theme wedding and a ${Noun} guest list. `
+
+document.getElementById('madlib-output').innerHTML = story + story2 + story3
